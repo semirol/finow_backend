@@ -6,8 +6,10 @@ import lombok.Data;
 @Data
 @Builder
 public class LoginInfoDTO {
+    //入参
     private Integer phoneNumber;
     private Integer validCode;
-    private UserDTO user;
+    //出参
     private Integer ifLogin;
+    private UserDTO user;
 }
